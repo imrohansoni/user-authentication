@@ -1,41 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+ <main class="main">
+     <form action="/signup" method="post" class="form">
+         <div class="form__header">
+             <p class="form__title">welcome</p>
+             <p class="form__sub-title">signup with your email</p>
+         </div>
+         <div class="form__input">
+             <label for="username">username</label>
+             <input type="text" name="username" id="username">
+         </div>
+         <div class="form__input">
+             <label for="email">email</label>
+             <input type="text" name="email" id="email">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>signup</title>
-</head>
+         </div>
+         <div class="form__input">
+             <label for="number">mobile number</label>
+             <input type="text" name="number" id="number">
+         </div>
+         <div class="form__input">
+             <label for="password">password</label>
+             <input type="password" name="password" id="password">
+         </div>
+         <button class="btn form__submit" type="submit">
+             signup
+         </button>
 
-<body>
-
-    <main class="main">
-        <form action="">
-            <div class="form__input">
-                <input type="text" name="username" id="username">
-                <label for="username">username</label>
-            </div>
-            <div class="form__email">
-                <input type="text" name="email" id="email">
-                <label for="email">email</label>
-            </div>
-            <div class="form_number">
-                <input type="text" name="number" id="number">
-                <label for="number">mobile number</label>
-            </div>
-            <div class="form__input">
-                <input type="password" name="password" id="password">
-                <label for="password">password</label>
-            </div>
-            <button class="btn form__submit">
-                signup
-            </button>
-
-        </form>
-    </main>
-
-</body>
-
-</html>
+     </form>
+ </main>
